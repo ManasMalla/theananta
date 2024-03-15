@@ -520,7 +520,7 @@ export default function AboutUs() {
                 <div class="img-container grayscale-[100] overflow-hidden mb-6">
                   <img
                     class="w-full h-full object-cover"
-                    src="/team/kavyachandana2.jpg"
+                    src="/team/kavyachandana.jpg"
                     alt=""
                   />
                 </div>
