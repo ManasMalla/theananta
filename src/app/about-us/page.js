@@ -3,7 +3,7 @@ import "./styles.module.css";
 export default function AboutUs() {
   return (
     <div class="styles_container__B1lx_">
-      <div class=" w-full   px-6">
+      <div class=" w-full px-6">
         <div class="max-w-about mx-auto ">
           <div class="hero-title  ">
             <div class="flex flex-wrap">
@@ -145,7 +145,7 @@ export default function AboutUs() {
               </h3>
               <div class="hidden lg:block">
                 <div class="">
-                  <div class="flex gap-x-12">
+                  <div class="grid grid-cols-4 gap-x-12 gap-y-8">
                     <div class="swiper-slide swiper-slide-active">
                       <div class="member flex flex-col items-center">
                         <div class="img-container grayscale-[100] overflow-hidden mb-6 group">
@@ -203,7 +203,7 @@ export default function AboutUs() {
                           </div>
                         </div>
                         <h6 class="title">Lochan Mathukumilli</h6>
-                        <div class="role">COO, Co-founder</div>
+                        <div class="role">CFO, Co-founder</div>
                       </div>
                     </div>
                     <div class="swiper-slide">
@@ -251,7 +251,7 @@ export default function AboutUs() {
                           </div>
                         </div>
                         <h6 class="title">Geethika Chadaram</h6>
-                        <div class="role">Chief Marketing Officer</div>
+                        <div class="role">CMO, Board of Director</div>
                       </div>
                     </div>
                     <div class="swiper-slide">
@@ -289,12 +289,12 @@ export default function AboutUs() {
                         <div class="img-container grayscale-[100] overflow-hidden mb-6">
                           <img
                             class="w-full h-full object-cover"
-                            src=""
+                            src="/team/akhilaravipati1.jpg"
                             alt=""
                           />
                         </div>
                         <h6 class="title">Akhila Ravipati</h6>
-                        <div class="role">Illustrator</div>
+                        <div class="role">TBA</div>
                       </div>
                     </div>
                     <div class="swiper-slide">
@@ -302,12 +302,12 @@ export default function AboutUs() {
                         <div class="img-container grayscale-[100] overflow-hidden mb-6">
                           <img
                             class="w-full h-full object-cover"
-                            src=""
+                            src="/team/kavyachandana.jpg"
                             alt=""
                           />
                         </div>
                         <h6 class="title">Kavya Chandana</h6>
-                        <div class="role">Frontend Developer</div>
+                        <div class="role">TBA</div>
                       </div>
                     </div>
                     <div class="swiper-slide">
@@ -315,12 +315,12 @@ export default function AboutUs() {
                         <div class="img-container grayscale-[100] overflow-hidden mb-6">
                           <img
                             class="w-full h-full object-cover"
-                            src=""
+                            src="/team/satwikvarma.jpg"
                             alt=""
                           />
                         </div>
                         <h6 class="title">Satwik Varma</h6>
-                        <div class="role">UI/UX Designer</div>
+                        <div class="role">TBA</div>
                       </div>
                     </div>
                     <div class="swiper-slide">
@@ -328,12 +328,25 @@ export default function AboutUs() {
                         <div class="img-container grayscale-[100] overflow-hidden mb-6">
                           <img
                             class="w-full h-full object-cover"
-                            src=""
+                            src="/team/ujwalchowdary1.jpg"
                             alt=""
                           />
                         </div>
                         <h6 class="title">Ujwal Narayan Sai</h6>
-                        <div class="role">3D Designer</div>
+                        <div class="role">TBA</div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="member flex flex-col items-center">
+                        <div class="img-container grayscale-[100] overflow-hidden mb-6">
+                          <img
+                            class="w-full h-full object-cover"
+                            src="/team/sowmikadatla.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <h6 class="title">Sowmika Datla</h6>
+                        <div class="role">TBA</div>
                       </div>
                     </div>
                     {/* <div class="swiper-slide">
@@ -379,7 +392,7 @@ export default function AboutUs() {
                 </div>
               </div>
             </div>
-            <div class="lg:hidden grid px-6 gap-8 grid-cols-2">
+            <div class="lg:hidden grid px-6 gap-8 grid-cols-2 md:grid-cols-3">
               <div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6 group">
                   <img
@@ -429,7 +442,7 @@ export default function AboutUs() {
                   </div>
                 </div>
                 <h6 class="title">Lochan Mathukumilli</h6>
-                <div class="role">COO, Co-founder</div>
+                <div class="role">CFO, Co-founder</div>
               </div>
               <div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6 group">
@@ -473,7 +486,7 @@ export default function AboutUs() {
                   </div>
                 </div>
                 <h6 class="title">Geethika Chadaram</h6>
-                <div class="role">Chief Marketing Officer</div>
+                <div class="role">CMO, BoD</div>
               </div>
               <div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6 group">
@@ -505,38 +518,58 @@ export default function AboutUs() {
               </div>
               <div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6">
-                  <img class="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    class="w-full h-full object-cover"
+                    src="/team/kavyachandana2.jpg"
+                    alt=""
+                  />
                 </div>
                 <h6 class="title">Kavya Chandana</h6>
-                <div class="role">Illustrator</div>
+                <div class="role">TBA</div>
               </div>
               <div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6">
-                  <img class="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    class="w-full h-full object-cover"
+                    src="/team/akhilaravipati1.jpg"
+                    alt=""
+                  />
                 </div>
                 <h6 class="title">Akhila Ravipati</h6>
-                <div class="role">Frontend Developer</div>
+                <div class="role">TBA</div>
               </div>
               <div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6">
-                  <img class="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    class="w-full h-full object-cover"
+                    src="/team/satwikvarma.jpg"
+                    alt=""
+                  />
                 </div>
                 <h6 class="title">Satwik Varma</h6>
-                <div class="role">UI/UX Designer</div>
+                <div class="role">TBA</div>
               </div>
               <div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6">
-                  <img class="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    class="w-full h-full object-cover"
+                    src="/team/ujwalchowdary1.jpg"
+                    alt=""
+                  />
                 </div>
                 <h6 class="title">Ujwal Narayana Sai</h6>
-                <div class="role">Full Stack Developer</div>
+                <div class="role">TBA</div>
               </div>
               <div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6">
-                  <img class="w-full h-full object-cover" src="" alt="" />
+                  <img
+                    class="w-full h-full object-cover"
+                    src="/team/sowmikadatla.jpg"
+                    alt=""
+                  />
                 </div>
                 <h6 class="title">Sowmika Datla</h6>
-                <div class="role">Project Manager</div>
+                <div class="role">TBA</div>
               </div>
               {/*<div class="member flex flex-col items-center">
                 <div class="img-container grayscale-[100] overflow-hidden mb-6">

@@ -65,7 +65,10 @@ export default function OurStory() {
             </div>
           </div>
           <div class=" lg:hidden mt-auto  lg:mt-6 cursor-pointer ">
-            <div class="btn backdrop-blur-[8px]  bordered-btn bg-black !text-white style_container__ZhG39">
+            <a
+              class="btn backdrop-blur-[8px]  bordered-btn bg-black !text-white style_container__ZhG39"
+              href="/about-us"
+            >
               <span class="initial items-center z-[2] flex gap-2 items-center">
                 Read more
                 <svg
@@ -120,7 +123,7 @@ export default function OurStory() {
                 </svg>
               </span>
               <span class="btn backdrop-blur-[8px]  bordered-btn bg-black !text-white !mb-0 bg-box absolute !w-full h-full"></span>
-            </div>
+            </a>
           </div>
         </div>
       </div>
